@@ -1,8 +1,9 @@
 {
+    "CRS.ObjectNamePrefix": "",
     "CRS.ObjectNameSuffix": " PKCU",
     "CRS.AlSubFolderName": "src",
     "CRS.OnSaveAlFileAction": "Reorganize",
-    "CRS.ExtensionObjectNamePattern": "",
+    "CRS.ExtensionObjectNamePattern": "<Prefix><BaseNameShort><Suffix>",
     "CRS.FileNamePatternExtensions": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.<ObjectId>.al",
     "CRS.FileNamePattern": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.<ObjectId>.al",
     "CRS.FileNamePatternPageCustomizations": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.<ObjectId>.al",
