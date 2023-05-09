@@ -1,4 +1,4 @@
-tableextension 50000 "Customer PKCU" extends Customer
+tableextension 50002 "Customer PKCU" extends Customer
 {
     fields
     {

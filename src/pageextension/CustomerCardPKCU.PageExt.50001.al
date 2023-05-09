@@ -1,4 +1,4 @@
-pageextension 50000 "CustomerCard PKCU" extends "Customer Card"
+pageextension 50001 "CustomerCard PKCU" extends "Customer Card"
 {
     layout
     {
