@@ -1,0 +1,28 @@
+{
+    "CRS.ObjectNameSuffix": " PKCU",
+    "CRS.AlSubFolderName": "src",
+    "CRS.OnSaveAlFileAction": "Reorganize",
+    "CRS.ExtensionObjectNamePattern": "",
+    "CRS.FileNamePatternExtensions": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.<ObjectId>.al",
+    "CRS.FileNamePattern": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.<ObjectId>.al",
+    "CRS.FileNamePatternPageCustomizations": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.<ObjectId>.al",
+    "files.defaultLanguage": "al",
+    "al.enableCodeAnalysis": true,
+    "al.codeAnalyzers": [
+        "${CodeCop}",
+        "${PerTenantExtensionCop}"
+    ],
+    "al.ruleSetPath": "./.vscode/ruleSet.json",
+    "al.enableCodeActions": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.al": true
+    },
+    "alOutline.codeActionsOnSave": [
+        "SortPermissions",
+        "SortProperties",
+        "SortProcedures",
+        "SortReportColumns",
+        "SortTableFields",
+        "SortVariables"
+    ]
+}

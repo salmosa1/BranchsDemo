@@ -1,0 +1,34 @@
+{
+  "id": "619fea41-227f-458c-a9b5-3638b1b06e39",
+  "name": "DEM_BRA",
+  "publisher": "Deloitte",
+  "version": "21.0.0.0",
+  "brief": "Ejemplo de desarrollo con ramas",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "https://www2.deloitte.com/es/es.html",
+  "logo": "./.vscode/LogoDeloitte.png",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "21.0.0.0",
+  "idRanges": [
+    {
+      "from": 50000,
+      "to": 50999
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "11.0",
+  "features": [
+    "TranslationFile",
+    "NoImplicitWith",
+    "NoPromotedActionProperties"
+  ]
+}
